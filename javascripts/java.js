@@ -17,6 +17,22 @@ $(document).ready(function(){
 		$(this).attr('src', hov2);
 		
 		});
+	$(".fade").hover(
+		function(){
+			$(this).stop().animate({opacity:1},"slow");
+		},
+		function(){
+			$(this).stop().animate({opacity:0},"slow");
+		}
+		);
+	$(".fade2").hover(
+		function(){
+			$(this).stop().animate({opacity:1},"slow");
+		},
+		function(){
+			$(this).stop().animate({opacity:0.5},"slow");
+		}
+		);
 		
 	/*---------------TWITTER-------------------*/
 
@@ -61,5 +77,20 @@ $(document).ready(function(){
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
-	
+
+	$("#gal").carouFredSel({
+		auto        : false,
+        prev    : {
+            button  : "#prev",
+        },
+        next    : {
+            button  : "#next",
+        },
+        height:200,
+
+    }).find("a").fancybox({padding:0});
+
+    /* ------------ SCROLL ---------------------*/
+    $('#txt').jScrollPane();
+    
 });

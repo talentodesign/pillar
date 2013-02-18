@@ -25,10 +25,16 @@
       </script>
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/jquery.tweet.css" media="all">
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/fancy/jquery.fancybox.css" media="all">
+      <link rel="stylesheet" href="<?php servidor(); ?>javascripts/jquery.jscrollpane.css" media="all">
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.tweet.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.carouFredSel-6.1.0.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/fancy/jquery.fancybox.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.jscrollpane.min.js"></script>
+      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.mousewheel.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/java.js"></script>
     <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
     <!--[if IE 7 ]>    <body class="ie7"> <![endif]-->

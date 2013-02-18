@@ -2,15 +2,15 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "";
+$core_nome     = "Pillar Construtora";
 //Descrição do Site
-$core_desc     ="";
+$core_desc     ="Site da Pillar Construtora";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords =""; 
+$core_keywords ="pillar,construtora,belém,pará,moradia"; 
 //Pasta do projeto
-$core_pasta    ="";
+$core_pasta    ="pillar";
 //E-mail para recebimento das mensagens via site
-$core_email    =""; 
+$core_email    ="genival@talentodesign.com.br"; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){

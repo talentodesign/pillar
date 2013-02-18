@@ -3,8 +3,11 @@
 /* End of import hide */
 /* GERAL */
 body{
+    font-family:Verdana;
+    overflow-x:hidden;
+    overflow-y:hidden;
     .centraliza{
-    	width:;
+    	width:1248px;
     	margin:0 auto;
     	}
     a, a:active, a:visited{
@@ -21,10 +24,362 @@ body{
     }
 /* HEADER */
 #header{
+    background:url(../images/topo.jpg) center bottom;
+    #cinza{
+        background-color:#efefef;
+        p{
+            padding:20px 0 20px 60px;
+            font-size:10px;
+            text-transform:uppercase;
+            }
+        }
+    #topo-fixo{
+        position:relative;
+        z-index:20;
+        #logo{
+            float:left;
+            margin-left:88px;
+            }
+        #redes{
+            float:right;
+            margin:45px 52px 0 0;
+            text-align:right;
+            }
+        #menu{
+            margin-top:10px;
+            list-style:none;
+            li{
+                display:inline;
+                }
+            }
+        }
 	}
+/* BANNER */
+#banner{
+    #slider-area{
+        position:relative;
+        width:1700px;
+        height:421px;
+        left:50%;
+        margin-left:-996px;
+        margin-top:-84px;
+        }
+    #mini-menu{
+        position:relative;
+        text-align:right;
+        padding:20px 190px 20px 0;
+        z-index:20;
+        color:white;
+        font-size:20px;
+        }
+    }
 /* FOOTER */
 #footer{
+    background:url(../images/footer-bg.jpg) center;
+    color:white;
+    font-size:12px;
+    p{
+        padding:45px 0;
+        }
+    #talento{
+        float:right;
+        margin: 56px 26px;
+        }
 	}
 /* CONTEUDO */
 #content{
+    #home{
+        #nahum{
+            height:465px;
+            background:url(../images/nh-bg.jpg) bottom repeat-x;
+            #foto{
+                float:right;
+                margin: 13px 0 0 0;
+                }
+            #lanc{
+                float:left;
+                margin: 94px 0 0 -130px;
+                }
+            #meio{
+                float:left;
+                margin-top:132px;
+                #carrosel{
+                    margin-top:58px;
+                    width: 530px;
+                    a#prev, a#next{
+                        padding:40px 10px;
+                        font-size:40px;
+                        color:white;
+                        &:hover{
+                            text-decoration:none;
+                            color:#D7D7D7;
+                            }
+                        }
+                    a#prev{
+                        float:left;
+                        }
+                    a#next{
+                        float:right;
+                        }
+                    #gal-area{
+                        float:left;
+                        width:415px;
+                        height:145px;
+                        overflow:hidden;
+                        img{
+                            width:124px;
+                            height:127px;
+                            border:3px solid white;
+                            }
+                        }
+                    }
+                }
+            }
+        .colunas{
+            float:left;
+            padding:40px 0 0 42px;
+            }
+        #h-not{
+            .not{
+                float:left;
+                font-size:12px;
+                width:240px;
+                padding:10px 15px;
+                .title{
+                    font-weight:bold;
+                    padding:10px 0;
+                    }
+                .resumo{
+                    padding-bottom:10px;
+                    }
+                }
+            }
+        #twt{
+            float:left;
+            margin:60px 10px 20px 0;
+            padding:40px 0 0 10px;
+            width:444px;
+            height:87px;
+            background:url(../images/twt-bg.jpg);
+            }
+        #fb{
+            margin-top:60px;
+            float:left;
+            width:383px;
+            height:127px;
+            background:url(../images/fb-bg.jpg);
+            }
+        #h-contato{
+            input[type=text],textarea{
+                width:295px;
+                height:27px;
+                margin:5px 0;
+                padding:5px;
+                border:none;
+                outline:none;
+                background-color:#d7d7d7;
+                }
+            textarea{
+                height:70px;
+                }
+            }
+        }
+    #quems{
+        padding-bottom:245px;
+        #title{
+            margin:46px 0 0 76px;
+            }
+        #icon{
+            float:left;
+            margin:245px 62px 0 40px;
+            }
+        #texto{
+            margin-top: 240px;
+            font-size:16px;
+            p{
+                margin-bottom:20px;
+                span{
+                    font-size:20px;
+                    color:#085478;  
+                    }
+                }
+            }
+        }
+    #falecon{
+        #title{
+            margin:46px 0 0 76px;
+            }
+        #texto{
+            margin:28px 0 0 76px;
+            }
+        #icon{
+            float:right;
+            }
+        #form{
+            margin:63px 0 0 76px;
+            width:390px;
+            label img{
+                padding-left:5px;
+                margin-bottom:5px;
+                }
+            input[type=text],textarea{
+                margin-bottom:15px;
+                width:390px;
+                height:35px;
+                padding:5px;
+                background:none;
+                outline:none;
+                border:1px solid #0d577e;
+                }
+            textarea{
+                height:235px;
+                }
+            }
+        }
+    #emp{
+        padding-bottom:20px;
+        #title{
+            margin:46px 0 66px 76px;
+            }
+        #andindex{
+            float:left;
+            margin-left:76px; 
+            width:229px;
+            height:699px;
+            background:url(../images/emp/and-off.jpg) top no-repeat;
+            }
+        #concindex{
+            float:left;
+            margin-left:82px; 
+            width:229px;
+            height:697px;
+            background:url(../images/emp/conc-off.jpg) top no-repeat;
+            }
+        &.andamento{
+            //background:url(../images/emp/and-bg.jpg) left top no-repeat;
+            }
+        .fade{
+            opacity:0;
+            }
+        #obs{
+            padding:0 76px;
+            a:hover{
+                text-decoration:none;
+                }
+            .obraid{
+                width:229px;
+                img{
+                    width:100%;
+                    height:573px;
+                    opacity:0.5;
+                    margin-bottom:-3px;
+                    }
+                .desc{
+                    padding:10px 0;
+                    background:url(../images/emp/desc-bg.jpg) top repeat-x #145d86;
+                    text-align:center;
+                    font-size:30px;
+                    color:white;
+                    }
+                }
+            }
+        #top{
+            margin-top:15px;
+            padding:24px 17px;
+            background-color:#f9f9f9;
+            border:1px solid #e7e7e7;
+            #pf{
+                float:left;
+                width:312px;
+                max-height:523px;
+                }
+            #info{
+                float:left;
+                margin-left:15px;
+                width:350px;
+                padding-bottom:5px;
+                background-color:#085478;
+                #titulo{
+                    margin-top:16px;
+                    padding:5px 0 5px 65px;
+                    background-color:#6e9ab0;
+                    text-transform:uppercase;
+                    font-size:13px;
+                    color:#074c6c;
+                    }
+                #txt{
+                    width:345px;
+                    margin-left:5px;
+                    height:460px;
+                    overflow:hidden;
+                    font-size:11px;
+                    color:white;
+                    }
+                
+                }
+            #mapa{
+                float:left;
+                margin-left:15px;
+                height:523px;
+                background:url(../images/emp/end-bg.png) center bottom no-repeat;
+                text-transform:uppercase;
+                color:white;
+                p{
+                    padding:52px 0 0 16px;
+                    font-size:15px;
+                    }
+                }
+            }
+        #bot{
+            margin-top:60px;
+            padding:24px 17px;
+            background-color:#f9f9f9;
+            border:1px solid #e7e7e7;
+            #graficos{
+                float:left;
+                width:406px;
+                padding:4px;
+                background-color:#c6c9cb;
+                color:#085478;
+                #tt{
+                    font-size:20px;
+                    text-transform:uppercase;
+                    }
+                }
+            #galeria-area{
+                float:left;
+                #carrosel{
+                    margin-top:58px;
+                    width: 530px;
+                    a#prev, a#next{
+                        padding:40px 10px;
+                        font-size:40px;
+                        color:white;
+                        &:hover{
+                            text-decoration:none;
+                            color:#D7D7D7;
+                            }
+                        }
+                    a#prev{
+                        float:left;
+                        }
+                    a#next{
+                        float:right;
+                        }
+                    #gal-area{
+                        float:left;
+                        width:415px;
+                        height:145px;
+                        overflow:hidden;
+                        img{
+                            width:124px;
+                            height:127px;
+                            border:3px solid white;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
 	}
