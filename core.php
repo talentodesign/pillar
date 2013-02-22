@@ -88,6 +88,6 @@ class Paginacao{
 // Importando Wordpress
 function wp_funcoes(){
 	define('WP_USE_THEMES', false);
-	require('./wordpress/wp-load.php');
+	require('noticias/wp-load.php');
 	}
 ?>

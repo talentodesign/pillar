@@ -18,9 +18,6 @@
                         </div>
                         <div id="txt">
                             <p>
-                            REGISTRO INCORPORAÇÃO <br>
-                            Livro . Matrícula <br>
-                              <br>
                             LOCALIZAÇÃO <br>
                             Av. Dr. Freitas, n°2949 <br>
                             (Av.Al. Barroso/Av.João Paulo II) – Curió Utinga. <br>
@@ -47,11 +44,13 @@
                             - Elevadores (social/serviço). <br>
                             - Infra estrutura para Split <br>
                             - Revest. externo em cerâmica, com detalhes em pastilha porcelanizada <br>
-                            - Revest. Interno : - porcelanato (salas, quarto..... <br>
-                            <?php $i=0;
-                             while ( $i<= 20) {?>
-                            - Mais <br>
-                            <?php $i++;} ?>
+                            - Revest. Interno : - porcelanato (exceto wc, cozinha e a. de serviço) <br>
+                            - 2 Quartos com Sacada (sendo uma suíte).<br>
+                            - Pré-instalação p/split, com 2 pontos nos apartamentos. <br>
+                            - Aproveitamento de Águas Pluviais para Jardins. <br>
+                            - Gerador em toda área condominial e 2 pontos de apartamentos. <br>
+                            - Área condominial completa. <br>
+                            - Revestimento externo em cerâmica com detalhes de pastilhas porcelanizadas.
                             </p>     
                         </div>   
                     </div>
@@ -97,8 +96,8 @@
                                     <a href="<?php servidor(); ?>images/nh-gal/8.jpg" title="" >
                                         <img src="<?php servidor(); ?>images/nh-gal/8.jpg" alt="">
                                     </a>
-                                    <a href="<?php servidor(); ?>images/nh-gal/9.jpg" title="" >
-                                         <img src="<?php servidor(); ?>images/nh-gal/9.jpg" alt="">
+                                    <a href="<?php servidor(); ?>images/emp/nahum-pf.jpg" title="" >
+                                         <img src="<?php servidor(); ?>images/emp/nahum-pf.jpg" alt="">
                                     </a>
                                 </div>
                             </div>

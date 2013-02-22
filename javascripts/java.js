@@ -34,10 +34,6 @@ $(document).ready(function(){
 		}
 		);
 		
-	/*---------------TWITTER-------------------*/
-
-	$("#twits").tweet();
-		
 		
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
@@ -77,20 +73,19 @@ $(document).ready(function(){
 	
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
-
+	
 	$("#gal").carouFredSel({
-		auto        : false,
-        prev    : {
-            button  : "#prev",
-        },
-        next    : {
-            button  : "#next",
-        },
-        height:200,
-
-    }).find("a").fancybox({padding:0});
+		width: 535,
+		height: 200,
+		items: 4,
+		prev: "#prev",
+		next: "#next"
+	}).find("a").fancybox({padding:0});
 
     /* ------------ SCROLL ---------------------*/
     $('#txt').jScrollPane();
+
+    /* ------------ POP MENU ---------------------*/
+    $('#emp-menu').popover({html:true,placement:"bottom"});
     
 });

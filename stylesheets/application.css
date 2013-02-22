@@ -57,13 +57,16 @@ body .separator {
 #header #topo-fixo #menu li {
   display: inline;
 }
+#header #topo-fixo #menu li #emp-menu:hover {
+  cursor: pointer;
+}
 /* BANNER */
 #banner #slider-area {
   position: relative;
   width: 1700px;
   height: 421px;
   left: 50%;
-  margin-left: -996px;
+  margin-left: -849px;
   margin-top: -84px;
 }
 #banner #mini-menu {
@@ -106,7 +109,7 @@ body .separator {
 }
 #content #home #nahum #meio #carrosel {
   margin-top: 58px;
-  width: 530px;
+  width: 660px;
 }
 #content #home #nahum #meio #carrosel a#prev,
 #content #home #nahum #meio #carrosel a#next {
@@ -127,7 +130,7 @@ body .separator {
 }
 #content #home #nahum #meio #carrosel #gal-area {
   float: left;
-  width: 415px;
+  width: 536px;
   height: 145px;
   overflow: hidden;
 }
@@ -153,18 +156,10 @@ body .separator {
 #content #home #h-not .not .resumo {
   padding-bottom: 10px;
 }
-#content #home #twt {
-  float: left;
-  margin: 60px 10px 20px 0;
-  padding: 40px 0 0 10px;
-  width: 444px;
-  height: 87px;
-  background: url(../images/twt-bg.jpg);
-}
 #content #home #fb {
-  margin-top: 60px;
+  margin: 60px 10px 20px 0;
   float: left;
-  width: 383px;
+  width: 788px;
   height: 127px;
   background: url(../images/fb-bg.jpg);
 }
@@ -314,6 +309,7 @@ body .separator {
 #content #emp #top #mapa {
   float: left;
   margin-left: 15px;
+  width: 518px;
   height: 523px;
   background: url(../images/emp/end-bg.png) center bottom no-repeat;
   text-transform: uppercase;
@@ -344,14 +340,14 @@ body .separator {
   float: left;
 }
 #content #emp #bot #galeria-area #carrosel {
-  margin-top: 58px;
-  width: 530px;
+  height: 150px;
+  overflow: hidden;
 }
 #content #emp #bot #galeria-area #carrosel a#prev,
 #content #emp #bot #galeria-area #carrosel a#next {
   padding: 40px 10px;
   font-size: 40px;
-  color: white;
+  color: black;
 }
 #content #emp #bot #galeria-area #carrosel a#prev:hover,
 #content #emp #bot #galeria-area #carrosel a#next:hover {
@@ -364,14 +360,19 @@ body .separator {
 #content #emp #bot #galeria-area #carrosel a#next {
   float: right;
 }
-#content #emp #bot #galeria-area #carrosel #gal-area {
+#content #emp #bot #galeria-area #carrosel #gal-area,
+#content #emp #bot #galeria-area #carrosel #gal-area2 {
   float: left;
-  width: 415px;
+  width: 680px;
   height: 145px;
   overflow: hidden;
 }
-#content #emp #bot #galeria-area #carrosel #gal-area img {
+#content #emp #bot #galeria-area #carrosel #gal-area img,
+#content #emp #bot #galeria-area #carrosel #gal-area2 img {
   width: 124px;
   height: 127px;
   border: 3px solid white;
+}
+#content #emp #bot #galeria-area #carrosel #gal-area2 {
+  width: 1100px;
 }

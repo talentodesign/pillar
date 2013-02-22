@@ -8,7 +8,7 @@
         </div>
     </div>
     <div id="content">
-        <div id="emp" class="andamento"> 
+        <div id="emp"> 
             <div class="centraliza"> 
                 <img src="<?php servidor(); ?>images/emp/and-title.jpg" height="22" width="408" alt="" id="title"><br>
                 <div id="obs">

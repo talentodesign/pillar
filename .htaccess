@@ -8,6 +8,7 @@ RewriteRule ^empreendimentos/?$ emp.php
 RewriteRule ^obras-andamento/?$ and-index.php
 RewriteRule ^obras-concluidas/?$ conc-index.php
 RewriteRule ^obra-a/?$ obra-a.php
+RewriteRule ^obra-c/?$ obra-c.php
 RewriteRule ^parametro_string/pg/([a-z0-9-]*)\/?$ parametro_string.php?pg=$1
 RewriteRule ^parametro_int\/?([1-9]*)\/?$ parametro_int.php?qs_pg2805=$1
 </IfModule>

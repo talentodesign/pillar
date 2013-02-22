@@ -8,7 +8,6 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="<?php servidor(); ?>images/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/application.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script>!window.jQuery && document.write('<script src="javascripts/jquery-1.7.js"><\/script>')</script>
       <!-- asynchronous google analytics
@@ -26,6 +25,7 @@
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/jquery.tweet.css" media="all">
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/fancy/jquery.fancybox.css" media="all">
+      <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/application.css"/>
       <link rel="stylesheet" href="<?php servidor(); ?>javascripts/jquery.jscrollpane.css" media="all">
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.tweet.js"></script>

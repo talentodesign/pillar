@@ -14,9 +14,7 @@
                 <br>
                 <img src="<?php servidor(); ?>images/quems/logo.png" height="242" width="375" alt="" id="icon">
                 <div id="texto">
-                    <p>Nascida da união de dois engenheiros civis, com experiência de décadas, em construções de médio e grande porte, e, em particular de prédios comerciais e residenciais, a Pillar Construtora chega ao mercado imobiliário de nossa cidade para dispor de produtos com solidez e qualidade.</p>
-                    <p>No desejo de que a satisfação seja a tônica de nossos relacionamentos comerciais, nossa atenção vai dos projetos constitutivos a infra estrutura, da aquisição dos insumos a seleção dos materiais tudo é pensado e executado para que possamos ofertar o que há de mais adequado e funcional, por um preço justo.</p>
-                    <p>Assim aprendemos, assim realizamos, assim trabalhamos.</p>
+                    <p>Com experiência de décadas a Pillar Construtora disponibiliza ao mercado imobiliário produtos com solidez e qualidade.</p>
                     <p>Bem vindos a <span>Pillar Construtora</span></p>
                 </div>
                 <div class="separator"></div>

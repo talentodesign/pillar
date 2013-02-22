@@ -1,4 +1,4 @@
-<?php include("header.php") ?>
+<?php include("header.php"); wp_funcoes(); ?>
     <title><?php echo $core_nome; ?></title>
   </head>
   <body>
@@ -12,8 +12,8 @@
                 </div>
             </div>
             <div id="mini-menu" class="centraliza">
-                <a href="" title=""><img src="<?php servidor(); ?>images/oband_off.png" height="25" width="211" alt="" class="botao"></a> |
-                <a href="" title=""><img src="<?php servidor(); ?>images/nahum_off.png" height="25" width="207" alt="" class="botao"></a>
+                <a href="<?php servidor(); ?>obras-andamento/" title=""><img src="<?php servidor(); ?>images/oband_off.png" height="25" width="211" alt="" class="botao"></a> |
+                <a href="http://www.nahumresidence.com.br/" title="" target="_blank"><img src="<?php servidor(); ?>images/nahum_off.png" height="25" width="207" alt="" class="botao"></a>
             </div>
             <div class="separator"></div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="centraliza">
                     <img src="<?php servidor(); ?>images/lanc.png" height="366" width="453" alt="" id="lanc">
                     <div id="meio">
-                        <a href="" title=""><img src="<?php servidor(); ?>images/nh-txt.png" height="121" width="602" alt=""></a> <br>
+                        <a href="http://www.nahumresidence.com.br/" title=""><img src="<?php servidor(); ?>images/nh-txt.png" height="121" width="602" alt="" target="_blank"></a> <br>
                         <div id="carrosel">
                             <a href="" id="prev">◄</a>
                             <div id="gal-area">
@@ -71,28 +71,19 @@
                     <div id="h-not">
                         <img src="<?php servidor(); ?>images/noti-title.jpg" height="22" width="114" alt="" id="not-title">
                         <div class="separator"></div>
+                        <?php query_posts( array( 'posts_per_page'=> 3, 'paged' => 1 ) ); ?>
+                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="not">
-                            <img src="<?php servidor(); ?>images/not-exemplo.jpg" height="164" width="220" alt=""><br>
-                            <p class="title">Em andamento NAHUM RESIDENCE</p>
-                            <p class="resumo">Está acelerada as obras de mais uma obra da PILLAR CONSTRUTORA.</p>
-                            <a href=""><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
+                            <?php the_post_thumbnail(array(220,164)); ?><br>
+                            <p class="title"><?php the_title(); ?></p>
+                            <p class="resumo"><?php $excerpt = get_the_excerpt( $deprecated ); echo $excerpt; ?></p>
+                            <a href="<?php the_permalink(); ?>"><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
                         </div>
-                        <div class="not">
-                            <img src="<?php servidor(); ?>images/not-exemplo.jpg" height="164" width="220" alt=""><br>
-                            <p class="title">Em andamento NAHUM RESIDENCE</p>
-                            <p class="resumo">Está acelerada as obras de mais uma obra da PILLAR CONSTRUTORA.</p>
-                            <a href=""><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
-                        </div>
-                        <div class="not">
-                            <img src="<?php servidor(); ?>images/not-exemplo.jpg" height="164" width="220" alt=""><br>
-                            <p class="title">Em andamento NAHUM RESIDENCE</p>
-                            <p class="resumo">Está acelerada as obras de mais uma obra da PILLAR CONSTRUTORA.</p>
-                            <a href=""><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
-                        </div>
+                        <?php endwhile?>
+                        <?php endif; ?>
 
                         <div class="separator"></div>
                     </div>
-                    <div id="twt"></div>
                     <div id="fb"></div>
                 </div>
                 <div class="colunas">
