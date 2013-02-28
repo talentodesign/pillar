@@ -65,12 +65,11 @@
                 <div id="bot">
                     <div id="graficos">
                         <span id="tt">Gráfico de obra em andamento</span><br>
-
                     </div>
                     <div id="galeria-area">
                         <div id="carrosel">
                             <a href="" id="prev">◄</a>
-                            <div id="gal-area">
+                            <div id="gal-area" class="obra-a">
                                 <div id="gal">
                                     <a href="<?php servidor(); ?>images/nh-gal/1.jpg" title="" >
                                         <img src="<?php servidor(); ?>images/nh-gal/1.jpg" alt="">

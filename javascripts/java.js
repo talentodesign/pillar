@@ -74,10 +74,25 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
-	$("#gal").carouFredSel({
+	$("#nahum #gal").carouFredSel({
 		width: 535,
 		height: 200,
 		items: 4,
+		prev: "#prev",
+		next: "#next"
+	}).find("a").fancybox({padding:0});
+
+	$(".obra-a #gal").carouFredSel({
+		width: 680,
+		height: 200,
+		items: 5,
+		prev: "#prev",
+		next: "#next"
+	}).find("a").fancybox({padding:0});
+
+	$("#gal-area2 #gal").carouFredSel({
+		width: 1100,
+		height: 200,
 		prev: "#prev",
 		next: "#next"
 	}).find("a").fancybox({padding:0});
