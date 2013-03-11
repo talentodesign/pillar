@@ -79,23 +79,59 @@ $(document).ready(function(){
 		height: 200,
 		items: 4,
 		prev: "#prev",
-		next: "#next"
-	}).find("a").fancybox({padding:0});
+		next: "#next",
+		scroll: {
+			duration: 500,
+			pauseOnHover: true
+    },
+		auto: 6000
+	}).find("a").fancybox({
+		padding:0,
+		helpers : {
+			overlay : {
+				locked : false
+			}
+		}
+	});
 
 	$(".obra-a #gal").carouFredSel({
 		width: 680,
 		height: 200,
 		items: 5,
 		prev: "#prev",
-		next: "#next"
-	}).find("a").fancybox({padding:0});
+		next: "#next",
+		scroll: {
+			duration: 500,
+			pauseOnHover: true
+    },
+		auto: 6000
+	}).find("a").fancybox({
+		padding:0,
+		helpers : {
+			overlay : {
+				locked : false
+			}
+		}
+	});
 
 	$("#gal-area2 #gal").carouFredSel({
 		width: 1100,
 		height: 200,
 		prev: "#prev",
-		next: "#next"
-	}).find("a").fancybox({padding:0});
+		next: "#next",
+		scroll: {
+			duration: 500,
+			pauseOnHover: true
+    },
+		auto: 6000
+	}).find("a").fancybox({
+		padding:0,
+		helpers : {
+			overlay : {
+				locked : false
+			}
+		}
+	});
 
     /* ------------ SCROLL ---------------------*/
     $('#txt').jScrollPane();

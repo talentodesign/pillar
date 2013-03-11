@@ -55,9 +55,9 @@
                         </div>   
                     </div>
                     <div id="mapa">
-                        <iframe width="517" height="401" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=-1.425157,-48.454943+(Nahum+Residence)&amp;aq=&amp;sll=-1.425157,-48.454943&amp;sspn=0.023725,0.042272&amp;t=h&amp;ie=UTF8&amp;ll=-1.417435,-48.457518&amp;spn=0.034408,0.044289&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br />
+                        <iframe width="517" height="401" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=-1.430606,-48.451767&amp;daddr=&amp;geocode=&amp;sll=-1.427474,-48.444901&amp;sspn=0.023725,0.042272&amp;hl=pt-BR&amp;doflg=ptk&amp;mra=mift&amp;mrsp=0&amp;sz=15&amp;ie=UTF8&amp;t=m&amp;ll=-1.429705,-48.45211&amp;spn=0.034407,0.044289&amp;z=14&amp;output=embed"></iframe>
                         <p>
-                            Av. Dr. Freitas, n°2949                            
+                            DR. FREITAS, nº 2949 ENTRE AL BARROSO E JOÃO PAULO II                          
                         </p>
                     </div>
                     <div class="separator"></div>
