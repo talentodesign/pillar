@@ -6,7 +6,7 @@ body .separator{clear:both;}
 #header{background:url(../images/topo.jpg) center bottom;}#header #cinza{background-color:#efefef;}#header #cinza p{padding:20px 0 20px 60px;font-size:10px;text-transform:uppercase;}
 #header #topo-fixo{position:relative;z-index:20;}#header #topo-fixo #logo{float:left;margin-left:88px;}
 #header #topo-fixo #redes{float:right;margin:45px 52px 0 0;text-align:right;}
-#header #topo-fixo #menu{margin-top:10px;list-style:none;}#header #topo-fixo #menu li{display:inline;}#header #topo-fixo #menu li #emp-menu:hover{cursor:pointer;}
+#header #topo-fixo #menu{margin-top:10px;list-style:none;}#header #topo-fixo #menu li{display:inline;margin-left:15px;}#header #topo-fixo #menu li #emp-menu:hover{cursor:pointer;}
 #banner #slider-area{position:relative;width:1700px;height:421px;left:50%;margin-left:-849px;margin-top:-84px;}
 #banner #mini-menu{position:relative;text-align:right;padding:20px 190px 20px 0;z-index:20;color:white;font-size:20px;}
 #footer{background:url(../images/footer-bg.jpg) center;color:white;font-size:12px;}#footer p{padding:45px 0;}
