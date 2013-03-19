@@ -18,15 +18,41 @@
                         </div>
                         <div id="txt">
                             <p>
-                            LOCALIZAÇÃO <br>
-                            Mariz e Barros, 3106 - Marco<br>
-                            Entre Almirante Barroso e João Paulo II <br><br>
-                            FICHA TÉCNICA<br>
-                             - Apartamento de 137m², todos de frente para a nascente;<br>
-                             - 3 Suites sendo uma Master;<br>
-                             - Gabinete, Sala de estar e jantar, Espaço Goumert;<br>
-                             - Cozinha, Área de serviço e Dependencia de Empregada;<br>
-                             - Condomínio completo.<br>
+                                <br/>
+                                LOCALIZAÇÃO <br/>
+                                Trav.Mariz e Barros, 3061 <br/>
+                                (Av.Alm.Barroso/Av.João Paulo II) -Marco. <br/>
+                                <br/>
+                                DISPOSIÇÃO <br/>
+                                16 andares (2 unidades NASCENTES, por andar) <br/>
+                                <br/>
+                                CARACTERÍSTICAS <br/>
+                                <br/>
+                                .137,01 m² (área privativa). <br/>
+                                .3 suítes, sendo 1 suíte Máster, com Closet. <br/>
+                                .Gabinete <br/>
+                                .Sala de Estar/Jantar <br/>
+                                .Lavabo <br/>
+                                .Sacada Gourmet,  <br/>
+                                .Cozinha <br/>
+                                .Área de Serviço <br/>
+                                .Dependência de Empregada <br/>
+                                .2 Vagas de Garagem livres <br/>
+                                <br/>
+                                INFRA ESTRUTURA <br/>
+                                -Piscina <br/>
+                                -Salão de Festas <br/>
+                                -Salão de Jogos <br/>
+                                -Brinquedoteca <br/>
+                                -Street Ball <br/>
+                                -Relax <br/>
+                                -Churrasqueira <br/>
+                                -Fitness <br/>
+                                -Sauna <br/>
+                                -Elevadores (social/serviço) <br/>
+                                -Grupo Gerador. <br/>
+                                -Revest. externo em pastilha porcelanizada <br/>
+                                -Revest. Interno em porcelanato, nas salas e suítes <br/>   
                              </p>  
                         </div>   
                     </div>

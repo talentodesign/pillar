@@ -18,39 +18,52 @@
                         </div>
                         <div id="txt">
                             <p>
-                            LOCALIZAÇÃO <br>
-                            Av. Dr. Freitas, n°2949 <br>
-                            (Av.Al. Barroso/Av.João Paulo II) – Curió Utinga. <br>
-                            Belém . Pará <br>
-                              <br>
-                            DISPOSIÇÃO <br>
-                            Bloco Único, com 17 andares, sendo 13 andares de apartamentos (4 unidades, por andar) <br>
-                              <br>
-                            INFRA ESTRUTURA <br>
-                              <br>
-                            - Cyber <br>
-                            - Relax <br>
-                            - Sauna <br>
-                            - Fitness <br>
-                            - Piscina <br>
-                            - Sala Jogos <br>
-                            - Playground <br>
-                            - Churrasqueira <br>
-                            - Grupo Gerador <br>
-                            - Salão de Festas <br>
-                            - Quadra Esportes <br>
-                            - Gás individualizado <br>
-                            - Garagem, em três níveis. <br>
-                            - Elevadores (social/serviço). <br>
-                            - Infra estrutura para Split <br>
-                            - Revest. externo em cerâmica, com detalhes em pastilha porcelanizada <br>
-                            - Revest. Interno : - porcelanato (exceto wc, cozinha e a. de serviço) <br>
-                            - 2 Quartos com Sacada (sendo uma suíte).<br>
-                            - Pré-instalação p/split, com 2 pontos nos apartamentos. <br>
-                            - Aproveitamento de Águas Pluviais para Jardins. <br>
-                            - Gerador em toda área condominial e 2 pontos de apartamentos. <br>
-                            - Área condominial completa. <br>
-                            - Revestimento externo em cerâmica com detalhes de pastilhas porcelanizadas.
+                                <br/>
+                                REGISTRO INCORPORAÇÃO <br/>
+                                R.3/163CC, em 12/12/2012, Registro Imóveis 2º Ofício <br/>
+                                <br/>
+                                 
+                                LOCALIZAÇÃO <br/>
+                                Av. Dr. Freitas, n°2949 <br/>
+                                (Av.Al. Barroso/Av.João Paulo II) – Curió Utinga. <br/>
+                                Belém . Pará <br/>
+                                 
+                                DISPOSIÇÃO <br/>
+                                Bloco Único, com 17 andares, sendo 13 andares de apartamentos (4 unidades, por andar) <br/>
+                                <br/> 
+                                 
+                                CARACTERÍSTICAS <br/>
+                                <br/>
+                                 .Unidades com 75,63 m² (área privativa). <br/>
+                                 .Duas opções de planta: <br/>
+                                    - 2 quartos, sendo 1 suíte <br/>
+                                    - 2 suítes <br/>
+                                .sala de estar/jantar, com churrasqueira <br/>
+                                .sacadas social, quarto e suíte <br/>
+                                .cozinha <br/>
+                                .banheiros (social/suíte/serviço) <br/>
+                                .área de serviço <br/>
+                                .1 vaga de garagem <br/>
+                                <br/>
+                                INFRA ESTRUTURA <br/>
+                                <br/>
+                                - Cyber <br/>
+                                - Relax <br/>
+                                - Sauna <br/>
+                                - Fitness <br/>
+                                - Piscina <br/>
+                                - Sala Jogos <br/>
+                                - Playground <br/>
+                                - Churrasqueira <br/>
+                                - Grupo Gerador <br/>
+                                - Salão de Festas <br/>
+                                - Quadra Esportes <br/>
+                                - Gás individualizado <br/>
+                                - Garagem, em três níveis. <br/>
+                                - Elevadores (social/serviço). <br/>
+                                - Infra estrutura para Split e TV por Assinatura <br/>
+                                - Revest. externo em cerâmica, com detalhes em pastilha porcelanizada <br/>
+                                - Revest. Interno: porcelanato (salas, quarto, suíte) e cerâmica (bnh, coz, a serv)  
                             </p>     
                         </div>   
                     </div>
@@ -63,9 +76,9 @@
                     <div class="separator"></div>
                 </div>
                 <div id="bot">
-                    <div id="graficos">
+                   <!-- <div id="graficos">
                         <span id="tt">Gráfico de obra em andamento</span><br>
-                    </div>
+                    </div> -->
                     <div id="galeria-area">
                         <div id="carrosel">
                             <a href="" id="prev">◄</a>

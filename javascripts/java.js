@@ -95,9 +95,10 @@ $(document).ready(function(){
 	});
 
 	$(".obra-a #gal").carouFredSel({
-		width: 680,
+		width: 1100,
+		//width: 680,
 		height: 200,
-		items: 5,
+		items: 7,
 		prev: "#prev",
 		next: "#next",
 		scroll: {

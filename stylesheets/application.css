@@ -47,5 +47,5 @@ body .separator{clear:both;}
 #content #emp #bot #galeria-area{float:left;}#content #emp #bot #galeria-area #carrosel{height:150px;overflow:hidden;}#content #emp #bot #galeria-area #carrosel a#prev,#content #emp #bot #galeria-area #carrosel a#next{padding:40px 10px;font-size:40px;color:black;}#content #emp #bot #galeria-area #carrosel a#prev:hover,#content #emp #bot #galeria-area #carrosel a#next:hover{text-decoration:none;color:#D7D7D7;}
 #content #emp #bot #galeria-area #carrosel a#prev{float:left;}
 #content #emp #bot #galeria-area #carrosel a#next{float:right;}
-#content #emp #bot #galeria-area #carrosel #gal-area,#content #emp #bot #galeria-area #carrosel #gal-area2{float:left;width:680px;height:145px;overflow:hidden;}#content #emp #bot #galeria-area #carrosel #gal-area img,#content #emp #bot #galeria-area #carrosel #gal-area2 img{width:124px;height:127px;border:3px solid white;}
+#content #emp #bot #galeria-area #carrosel #gal-area,#content #emp #bot #galeria-area #carrosel #gal-area2{float:left;width:1100px;height:145px;overflow:hidden;}#content #emp #bot #galeria-area #carrosel #gal-area img,#content #emp #bot #galeria-area #carrosel #gal-area2 img{width:124px;height:127px;border:3px solid white;}
 #content #emp #bot #galeria-area #carrosel #gal-area2{width:1100px;}
