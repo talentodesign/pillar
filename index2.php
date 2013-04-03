@@ -77,7 +77,7 @@
                             <?php //the_post_thumbnail(array(220,164)); ?><br>
                             <p class="title"><?php //the_title(); ?></p>
                             <p class="resumo"><?php //$excerpt = get_the_excerpt( $deprecated ); echo $excerpt; ?></p>
-                            <a href="<?php the_permalink(); ?>"><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
+                            <a href="<?php //the_permalink(); ?>"><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
                         </div>
                         <?php //endwhile?>
                         <?php //endif; ?>

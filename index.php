@@ -1,4 +1,4 @@
-<?php include("header.php"); //wp_funcoes(); ?>
+<?php include("header.php"); wp_funcoes(); ?>
     <title><?php echo $core_nome; ?></title>
   </head>
   <body>
@@ -71,16 +71,16 @@
                     <div id="h-not">
                         <img src="<?php servidor(); ?>images/noti-title.jpg" height="22" width="114" alt="" id="not-title">
                         <div class="separator"></div>
-                        <?php //query_posts( array( 'posts_per_page'=> 3, 'paged' => 1 ) ); ?>
-                        <?php //if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                        <?php query_posts( array( 'posts_per_page'=> 3, 'paged' => 1 ) ); ?>
+                        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                         <div class="not">
-                            <?php //the_post_thumbnail(array(220,164)); ?><br>
-                            <p class="title"><?php //the_title(); ?></p>
-                            <p class="resumo"><?php //$excerpt = get_the_excerpt( $deprecated ); echo $excerpt; ?></p>
-                            <a href="<?php //the_permalink(); ?>"><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
+                            <?php the_post_thumbnail(array(220,164)); ?><br>
+                            <p class="title"><?php the_title(); ?></p>
+                            <p class="resumo"><?php $excerpt = get_the_excerpt( $deprecated ); echo $excerpt; ?></p>
+                            <a href="<?php the_permalink(); ?>"><img src="<?php servidor(); ?>images/leia-mais_off.jpg" height="30" width="79" alt="" class="botao"></a>
                         </div>
-                        <?php //endwhile?>
-                        <?php //endif; ?>
+                        <?php endwhile?>
+                        <?php endif; ?>
 
                         <div class="separator"></div>
                     </div>
